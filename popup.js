@@ -12,7 +12,7 @@ chrome.storage.local.get(['customimage']).then((result) => {
     customUrl.value = result['customimage'];
     if (result['customimage']) {
         display.src = result['customimage'];
-        display.setProperty('scale', '1');
+        display.style.setProperty('scale', '1');
     }
 })
 chrome.storage.local.get(['usecustomimage']).then((result) => {

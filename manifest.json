@@ -1,6 +1,6 @@
 {
     "name": "rat.png",
-    "description": "replaces all images with rat",
+    "description": "replaces all images with rat... or custom image",
     "version": "1.0",
     "manifest_version": 3,
     "icons": {
