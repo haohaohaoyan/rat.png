@@ -1,2 +1,2 @@
-# image-replace-extension
-rat.png funny!
+# rat.png
+hmmmm
