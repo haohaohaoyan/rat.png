@@ -1,8 +1,15 @@
 <html>
     <body>
-        <img src="ratbase.png" style="image-rendering: pixelated; scale: 2; margin: 30px;">
+        <img src="ratbase.png" id="placeholder" style="image-rendering: pixelated; scale: 2; margin: 30px; max-width: 100px;"><br>
         <input type="checkbox" id="replacetoggle">
         <label for="replacetoggle">rat.png</label>
+        <p style="font-size: 0.5em">please refresh after deactivating</p>
+        <p>options:</p>
+        <div>
+            <input type="checkbox" id="imagetoggle">
+            <label for="imagetoggle">custom image?</label>
+            <input type="url" id="customurl" placeholder="image url" style="max-width: 140px;">
+        </div>
         <script src="popup.js"> </script>
     </body>
 </html>
