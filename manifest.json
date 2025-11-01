@@ -13,7 +13,8 @@
         "default_icon": "ratbase.png"
     },
     "permissions": [
-        "storage"
+        "storage",
+        "activeTab"
     ],
     "content_scripts": [
         {
